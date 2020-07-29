@@ -40,6 +40,16 @@ and for logistic regression, we calculate probability, i.e. y is the probability
 
 But, when we use equation(i) to calculate probability, we would get values less than 0 as well as greater than 1. That doesn’t make any sense . So, we need to use such an equation which always gives values between 0 and 1, as we desire while calculating the probability.
 
+# Cloud Deployment (Heroku)
+Once the training is completed, we need to expose the trained model as an API for the user to consume it. For prediction, the saved model is loaded first and then the predictions are made using it. If the web app works fine, the same app is deployed to the cloud platform.
 
+# Pre-requisites for cloud deployment:
+Basic knowledge of flask framework.
+Any Python IDE installed(we are using PyCharm).
+A Heroku account.
+Basic understanding of HTML.
 
+Please find the link of the app that I have deployed below:
+
+https://logistic-regression-project.herokuapp.com
 
